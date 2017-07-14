@@ -239,10 +239,10 @@ static const struct {
     { 0,                        0,              FALSE },    /* 0x34 unused */
     { VK_ESCAPE,                0x01,           TRUE },     /* kVK_Escape */
     { VK_RMENU,                 0x38 | 0x100,   TRUE },     /* kVK_RightCommand */
-    { VK_LMENU,                 0x38,           TRUE },     /* kVK_Command */
+    { VK_LCONTROL,              0x1D,           TRUE },     /* kVK_Command */
     { VK_LSHIFT,                0x2A,           TRUE },     /* kVK_Shift */
     { VK_CAPITAL,               0x3A,           TRUE },     /* kVK_CapsLock */
-    { 0,                        0,              FALSE },    /* kVK_Option */
+    { VK_LMENU,                 0x38,           TRUE },     /* kVK_Option */
     { VK_LCONTROL,              0x1D,           TRUE },     /* kVK_Control */
     { VK_RSHIFT,                0x36,           TRUE },     /* kVK_RightShift */
     { 0,                        0,              FALSE },    /* kVK_RightOption */
