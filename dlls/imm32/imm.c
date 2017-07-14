@@ -1496,6 +1496,7 @@ BOOL WINAPI ImmGetCompositionWindow(HIMC hIMC, LPCOMPOSITIONFORM lpCompForm)
  */
 HIMC WINAPI ImmGetContext(HWND hWnd)
 {
+    /*
     HIMC rc;
 
     TRACE("%p\n", hWnd);
@@ -1521,6 +1522,8 @@ HIMC WINAPI ImmGetContext(HWND hWnd)
     TRACE("returning %p\n", rc);
 
     return rc;
+    */
+    return NULL;
 }
 
 /***********************************************************************
@@ -2254,12 +2257,12 @@ BOOL WINAPI ImmRegisterWordW(
  */
 BOOL WINAPI ImmReleaseContext(HWND hWnd, HIMC hIMC)
 {
-  static BOOL shown = FALSE;
+  /*static BOOL shown = FALSE;
 
   if (!shown) {
      FIXME("(%p, %p): stub\n", hWnd, hIMC);
      shown = TRUE;
-  }
+  }*/
   return TRUE;
 }
 
